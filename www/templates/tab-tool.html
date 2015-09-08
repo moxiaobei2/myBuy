@@ -1,0 +1,45 @@
+<!--最基本框架 -->
+<ion-view view-title="工具">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear ion ion-search " ng-click="doSomething()">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear ion ion-gear-a " ng-click="clearCache()">
+            清除缓存
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+       <div class="tool-item">
+           <a href="#/login" ng-show="!isLogin" >
+              <p><img src="img/vote@2x.png"></p>
+               <p>登录</p>
+           </a>
+
+           <a href="#/chats" ng-show="isLogin" >
+               <p><img src="img/vote@2x.png"></p>
+               <p>我的好友</p>
+           </a>
+
+           <a>
+               <p><img src="img/vote@2x.png"></p>
+               <p>  2222</p>
+
+           </a>
+       </div>
+
+
+        <div class="tool-item">
+            <a >
+                <p><img src="img/vote@2x.png"></p>
+                <p>eeee</p>
+            </a>
+
+            <a>
+                <p><img src="img/vote@2x.png"></p>
+                <p>ggggggg</p>
+
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

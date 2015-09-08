@@ -1,0 +1,49 @@
+<ion-view view-title="个人中心" ng-init="isRegister=false">
+    <ion-nav-buttons side="left">
+        <!--终于解决了这个让人头疼的问题-->
+        <button class="button button-clear icon ion-ios-arrow-back" onClick="history.back(-1)">
+            返回
+        </button>
+    </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button  button-royal" ng-click="click($event)" ng-hide="isRegister">
+      注册
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding" >
+      <div class="list">
+          <!--
+        <div class="item item-thumbnail-left item-positive">
+          <img src="../img/ionic.png">
+          <h1 class="light" ng-hide="isRegister">user login</h1>
+          <h1 class="light" ng-show="isRegister">Register</h1>
+        </div>-->
+        <label class="item item-input">
+          <i class="icon ion-android-person positive"></i>
+
+          <input type="text" placeholder="请输入您的用户名" ng-model="user.nick" >
+        </label>
+        <label class="item item-input" >
+          <i class="icon ion-ios-unlocked-outline positive"></i>
+          <input type="password" placeholder="请输入您的密码" ng-model="user.pass" >
+        </label>
+        <label class="item item-input" ng-show="isRegister">
+          <i class="icon ion-email positive"></i>
+          <input type="email" placeholder="请输入您的邮箱" ng-model="user.email" >
+        </label>
+
+        <label class="item item-checkbox" ng-hide="isRegister">
+          <label class="checkbox">
+            <input type="checkbox" >
+          </label>
+          记住密码
+        </label>
+
+      <!--padding-left padding-right左右对齐-->
+      <div class="padding-left padding-right">
+        <div ng-show="isRegister" class="button button-block button-positive" ng-click="register()" >注册</div>
+        <div ng-hide="isRegister"class="button button-block button-positive" ng-click="login()" >登录系统</div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

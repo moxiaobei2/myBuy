@@ -1,0 +1,34 @@
+<!--最基本框架 -->
+<ion-view view-title="优惠">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear light" style="font-size: 12px;" ng-click="doSomething()">
+            选择车型
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button geolation class="button button-clear  ion ion-ios-location-outline" ng-click="doSomething()">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding has-header" ng-show="!modelShow">
+        <!-- 默认是车系优惠列表页，跳转到车系页面-->
+        <div class="list list-borderless" ng-repeat="model in mySearchValue" ng-click="goToModel(model.modelId)">
+            <div class="item">
+                <h2>{{model.name}}</h2>
+                <p class="red">￥{{model.discountPrice}}万起 <span class="span-last-child">{{model.modelType}}</span></p>
+            </div>
+
+            <div class="search-count">
+                <p ng-click="searchModels($index,$event)">
+                    {{model.dealers.length}}家经销商<i></i>
+                </p>
+            </div>
+        </div>
+    </ion-content>
+    <div search-models current-index="currentIndex"
+         my-search-value="mySearchValue"
+         model-show="modelShow"
+         is-tab="true"
+         search-dealers-list-flag="true"
+            >
+    </div>
+</ion-view>

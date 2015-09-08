@@ -1,0 +1,28 @@
+<!--最基本框架 -->
+<ion-view view-title="活动">
+    <ion-nav-buttons side="right">
+        <button geolation class="button button-clear  ion ion-ios-location-outline" ng-click="doSomething()">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <div class="list">
+            <div class="item item-150" ng-repeat="activity in activities" ng-click="goActivityDetail(activity.id)">
+                    <h2>{{activity.title}}</h2>
+                    <div class="img-left">
+                        <img src="{{activity.photo}}"  >
+                        <div class="shade">{{activity.brandName}}</div>
+                    </div>
+                    <div class="img-right">
+                        <p class="red">{{activity.priceTitle}}</p>
+                        <p>适用车系：{{activity.serialGroupNames}}</p>
+                        <p class="p-silver">
+                            <span><i class="icon ion-ios-time-outline"></i>2015-06-20截止</span>
+                            <span class="activity-count">已报名{{activity.orderCount}}人</span>
+                        </p>
+                    </div>
+
+
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,115 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+
+<ion-view view-title="{{chat.name}}">
+  <ion-content class="padding">
+    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
+    <p>
+      {{chat.lastText}}
+    </p>
+  </ion-content>
+</ion-view>-->
+<ion-view view-title="{{chat.name}}">
+    <ion-nav-buttons side="left">
+        <!--终于解决了这个让人头疼的问题-->
+        <button class="button button-clear icon ion-ios-arrow-back" onClick="history.back(-1)">
+            返回
+        </button>
+    </ion-nav-buttons>
+  <ion-content class="padding" start-y="120">
+      {{contacts}}
+    <ol class="messages">
+      <li ng-repeat="message in messages" ng-class="{selffloat:message.self,otherfloat:!message.self}" ng-bind-html="message.content">
+      </li>
+    </ol>
+  </ion-content>
+<div chat-input></div>
+  <!--
+<div class="fit-bottom" ng-init="showMoreFace=false;showMore=false">
+  <div class="fit-bottom-bar" >
+    <button class="button  icon ion-android-microphone circle-button" ng-click="add()"></button>
+
+    <label class="item-input item-input-wrapper" >
+      <div contenteditable="true" style="width: 92%;" id="inputcontent"></div>
+      <button class="button button-clear icon ion-android-happy" ng-click="showMoreFace=true;showMore=false;"></button>
+    </label>
+    <button class="button icon ion-plus-round circle-button "  ng-click="showMore=true;showMoreFace=false;"></button>
+  </div>
+  <ion-slide-box ng-show="showMore" class="show-more" on-slide-changed="slideHasChanged(index)">
+    <ion-slide>
+      <div class="tool-item more-tool-item">
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器44r
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器333
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器222
+        </a>
+      </div>
+
+      <div class="tool-item more-tool-item">
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器44r
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器333
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器222
+        </a>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="tool-item more-tool-item">
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器44r
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器333
+        </a>
+        <a >
+          <div class="tool-item-pink" ></div>
+          购车计算器222
+        </a>
+      </div>
+    </ion-slide>
+  </ion-slide-box>
+
+  <ion-slide-box  ng-show="showMoreFace" class="show-more show-more-face" on-slide-changed="slideHasChanged(index)">
+    <ion-slide ng-repeat="pageNo in [1,2,3]" >
+      <div class="tool-item more-tool-item moreface" ng-repeat="pageline in [1,2,3,4,5]">
+        <a ng-repeat="index in [1,2,3,4,5,6,7]"><img src="../img/qqface/{{index+(pageline-1)*7+(pageNo-1)*35}}.gif"
+                ng-click="faceLick(index+(pageline-1)*7+(pageNo-1)*35)"/></a>
+      </div>
+    </ion-slide>
+  </ion-slide-box>
+</div>-->
+
+
+
+</ion-view>

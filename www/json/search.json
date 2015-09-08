@@ -1,0 +1,774 @@
+{
+      "groupTotal": 53,
+      "items": [
+        {
+          "id": "4516",
+          "kind": "MPV",
+          "modelTotal": 5,
+          "models": [
+            {
+              "id": "20892",
+              "isPromote": "1",
+              "modelPrice": "61.78",
+              "name": "2012款 2.4L 豪华版",
+              "price": "61.78"
+            },
+            {
+              "id": "20893",
+              "isPromote": "1",
+              "modelPrice": "74.88",
+              "name": "2012款 3.5L 豪华版",
+              "price": "74.92"
+            },
+            {
+              "id": "39844",
+              "isPromote": "1",
+              "modelPrice": "75.9",
+              "name": "2015款 3.5L 豪华版",
+              "price": "75.9"
+            },
+            {
+              "id": "24973",
+              "isPromote": "1",
+              "modelPrice": "79.98",
+              "name": "2012款 3.5L 尊贵版",
+              "price": "79.98"
+            },
+            {
+              "id": "39843",
+              "isPromote": "1",
+              "modelPrice": "81.4",
+              "name": "2015款 3.5L 尊贵版",
+              "price": "81.4"
+            }
+          ],
+          "name": "埃尔法Alphard",
+          "photo": "http://img.pcauto.com.cn/images/upload/upc/tx/auto5/1506/17/c26/8562719_8562719_1434545060271_120x90.jpg",
+          "prices": "61.78~81.4"
+        },
+        {
+          "id": "3190",
+          "kind": "MPV",
+          "modelTotal": 4,
+          "models": [
+            {
+              "id": "19143",
+              "isPromote": "1",
+              "modelPrice": "43.1",
+              "name": "2012款 2.0TSI DSG 商务版",
+              "price": "44.28"
+            },
+            {
+              "id": "19144",
+              "isPromote": "1",
+              "modelPrice": "47.1",
+              "name": "2012款 2.0TSI DSG 豪华版",
+              "price": "49.98"
+            },
+            {
+              "id": "19145",
+              "isPromote": "1",
+              "modelPrice": "54.1",
+              "name": "2012款 2.0TSI DSG 尊享版",
+              "price": "57.38"
+            },
+            {
+              "id": "29699",
+              "isPromote": "1",
+              "modelPrice": "77.8",
+              "name": "2014款 2.0T 行政版",
+              "price": "81.8"
+            }
+          ],
+          "name": "迈特威Multivan",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1204/13/c6/11235678_11235678_1334285009968_120x90.jpg",
+          "prices": "43.1~77.8"
+        },
+        {
+          "id": "4559",
+          "kind": "MPV",
+          "modelTotal": 11,
+          "models": [
+            {
+              "id": "20517",
+              "isPromote": "0",
+              "modelPrice": "41.9",
+              "name": "2013款 2.5L 舒适版",
+              "price": "41.9"
+            },
+            {
+              "id": "26104",
+              "isPromote": "0",
+              "modelPrice": "44.9",
+              "name": "2013款 3.0L 舒适版",
+              "price": "44.9"
+            },
+            {
+              "id": "20518",
+              "isPromote": "0",
+              "modelPrice": "45.9",
+              "name": "2013款 2.5L 礼遇版",
+              "price": "45.9"
+            },
+            {
+              "id": "21086",
+              "isPromote": "0",
+              "modelPrice": "47.9",
+              "name": "2013款 2.5L 尊贵版",
+              "price": "47.9"
+            },
+            {
+              "id": "26105",
+              "isPromote": "0",
+              "modelPrice": "49.3",
+              "name": "2013款 3.0L 礼遇版",
+              "price": "49.3"
+            },
+            {
+              "id": "39012",
+              "isPromote": "0",
+              "modelPrice": "57.9",
+              "name": "2015款 3.0L 合伙人版",
+              "price": "57.9"
+            },
+            {
+              "id": "21087",
+              "isPromote": "0",
+              "modelPrice": "57.9",
+              "name": "2013款 2.5L 领航版",
+              "price": "57.9"
+            },
+            {
+              "id": "26106",
+              "isPromote": "0",
+              "modelPrice": "57.9",
+              "name": "2013款 3.0L 领航版",
+              "price": "57.9"
+            },
+            {
+              "id": "22442",
+              "isPromote": "0",
+              "modelPrice": "59.9",
+              "name": "2013款 3.5L 劲驰版",
+              "price": "59.9"
+            },
+            {
+              "id": "20519",
+              "isPromote": "0",
+              "modelPrice": "67.9",
+              "name": "2013款 3.5L 皓驰版",
+              "price": "67.9"
+            },
+            {
+              "id": "32076",
+              "isPromote": "0",
+              "modelPrice": "68.9",
+              "name": "2014款 3.5L 卓越版",
+              "price": "68.9"
+            }
+          ],
+          "name": "唯雅诺",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1408/15/c4/37464674_37464674_1408085679124_120x90.jpg",
+          "prices": "41.9~68.9"
+        },
+        {
+          "id": "4598",
+          "kind": "MPV",
+          "modelTotal": 4,
+          "models": [
+            {
+              "id": "32044",
+              "isPromote": "1",
+              "modelPrice": "52.3",
+              "name": "2014款 R 320 4MATIC商务型",
+              "price": "59.8"
+            },
+            {
+              "id": "32047",
+              "isPromote": "1",
+              "modelPrice": "57.8",
+              "name": "2014款 R 320 4MATIC豪华型",
+              "price": "67.8"
+            },
+            {
+              "id": "32045",
+              "isPromote": "1",
+              "modelPrice": "64.8",
+              "name": "2014款 R 400 4MATIC商务型",
+              "price": "74.8"
+            },
+            {
+              "id": "32046",
+              "isPromote": "1",
+              "modelPrice": "68.8",
+              "name": "2014款 R 400 4MATIC豪华型",
+              "price": "79.8"
+            }
+          ],
+          "name": "奔驰R级",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1404/29/c30/33701918_1398763748186_120x90.jpg",
+          "prices": "52.3~68.8"
+        },
+        {
+          "id": "64",
+          "kind": "MPV",
+          "modelTotal": 3,
+          "models": [
+            {
+              "id": "21582",
+              "isPromote": "1",
+              "modelPrice": "43.48",
+              "name": "2012款 2.4L 7座标准版",
+              "price": "46.98"
+            },
+            {
+              "id": "21583",
+              "isPromote": "1",
+              "modelPrice": "45.48",
+              "name": "2012款 2.4L 7座豪华版",
+              "price": "48.98"
+            },
+            {
+              "id": "21584",
+              "isPromote": "1",
+              "modelPrice": "57.5",
+              "name": "2012款 3.5L 7座豪华版",
+              "price": "61.0"
+            }
+          ],
+          "name": "普瑞维亚",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1012/07/c0/6138265_6138265_1291710035578_120x90.jpg",
+          "prices": "43.48~57.5"
+        },
+        {
+          "id": "4493",
+          "kind": "MPV",
+          "modelTotal": 3,
+          "models": [
+            {
+              "id": "38567",
+              "isPromote": "0",
+              "modelPrice": "45.0",
+              "name": "2015款 3.5L 两驱L",
+              "price": "45.0"
+            },
+            {
+              "id": "38568",
+              "isPromote": "0",
+              "modelPrice": "48.0",
+              "name": "2015款 3.5L 两驱LE",
+              "price": "48.0"
+            },
+            {
+              "id": "39102",
+              "isPromote": "0",
+              "modelPrice": "52.0",
+              "name": "2015款 3.5L 四驱L",
+              "price": "52.0"
+            }
+          ],
+          "name": "塞纳",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1202/06/c17/10345560_10345560_1328505821187_120x90.jpg",
+          "prices": "45.0~52.0"
+        },
+        {
+          "id": "3003",
+          "kind": "MPV",
+          "modelTotal": 2,
+          "models": [
+            {
+              "id": "35416",
+              "isPromote": "1",
+              "modelPrice": "42.68",
+              "name": "2014款 3.6 舒适版",
+              "price": "44.68"
+            },
+            {
+              "id": "23576",
+              "isPromote": "0",
+              "modelPrice": "49.66",
+              "name": "2013款 3.6 豪华版",
+              "price": "49.68"
+            }
+          ],
+          "name": "大捷龙(进口)",
+          "photo": "http://img.pcauto.com.cn/images/upload/upc/tx/auto5/1504/29/c64/6136641_1430297145994_120x90.jpg",
+          "prices": "42.68~49.66"
+        },
+        {
+          "id": "1135",
+          "kind": "MPV",
+          "modelTotal": 1,
+          "models": [
+            {
+              "id": "37298",
+              "isPromote": "1",
+              "modelPrice": "46.8",
+              "name": "2015款 3.5L SL",
+              "price": "46.8"
+            }
+          ],
+          "name": "贵士",
+          "photo": "http://img.pcauto.com.cn/images/upload/upc/tx/auto5/1502/11/c17/2988443_2988443_1423633083624_120x90.jpg",
+          "prices": "46.8~46.8"
+        },
+        {
+          "id": "7282",
+          "kind": "MPV",
+          "modelTotal": 2,
+          "models": [
+            {
+              "id": "22627",
+              "isPromote": "1",
+              "modelPrice": "37.8",
+              "name": "2013款 2.2T 行政版",
+              "price": "39.8"
+            },
+            {
+              "id": "22677",
+              "isPromote": "1",
+              "modelPrice": "39.8",
+              "name": "2013款 2.2T 专属旗舰版",
+              "price": "41.8"
+            }
+          ],
+          "name": "纳智捷MASTER CEO",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1311/08/c0/28428477_1383872614296_120x90.jpg",
+          "prices": "37.8~39.8"
+        },
+        {
+          "id": "10580",
+          "kind": "MPV",
+          "modelTotal": 4,
+          "models": [
+            {
+              "id": "31340",
+              "isPromote": "0",
+              "modelPrice": "34.1",
+              "name": "2014款 2.0TSI DSG 两驱舒适版",
+              "price": "35.7"
+            },
+            {
+              "id": "31341",
+              "isPromote": "0",
+              "modelPrice": "36.1",
+              "name": "2014款 2.0TSI DSG 四驱舒适版",
+              "price": "37.6"
+            },
+            {
+              "id": "40054",
+              "isPromote": "0",
+              "modelPrice": "37.8",
+              "name": "2015款 2.0TSI DSG 两驱舒适版",
+              "price": "37.9"
+            },
+            {
+              "id": "40055",
+              "isPromote": "0",
+              "modelPrice": "39.7",
+              "name": "2015款 2.0TSI DSG 四驱舒适版",
+              "price": "39.8"
+            }
+          ],
+          "name": "凯路威",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1404/03/c21/32753011_1396496543906_120x90.jpg",
+          "prices": "34.1~39.7"
+        },
+        {
+          "id": "628",
+          "kind": "MPV",
+          "modelTotal": 7,
+          "models": [
+            {
+              "id": "24198",
+              "isPromote": "1",
+              "modelPrice": "25.56",
+              "name": "2013款 1.8 TSI 标配型 欧IV",
+              "price": "26.56"
+            },
+            {
+              "id": "26912",
+              "isPromote": "1",
+              "modelPrice": "25.56",
+              "name": "2013款 1.8 TSI 标配型 欧V",
+              "price": "26.56"
+            },
+            {
+              "id": "24199",
+              "isPromote": "1",
+              "modelPrice": "27.96",
+              "name": "2013款 1.8 TSI 舒适型 欧IV",
+              "price": "28.96"
+            },
+            {
+              "id": "26913",
+              "isPromote": "1",
+              "modelPrice": "27.96",
+              "name": "2013款 1.8 TSI 舒适型 欧V",
+              "price": "28.96"
+            },
+            {
+              "id": "35089",
+              "isPromote": "1",
+              "modelPrice": "29.26",
+              "name": "2014款 2.0TSI 标配型",
+              "price": "30.26"
+            },
+            {
+              "id": "35088",
+              "isPromote": "1",
+              "modelPrice": "34.96",
+              "name": "2014款 2.0TSI 舒适型",
+              "price": "35.96"
+            },
+            {
+              "id": "35087",
+              "isPromote": "1",
+              "modelPrice": "38.96",
+              "name": "2014款 2.0TSI 豪华型",
+              "price": "39.96"
+            }
+          ],
+          "name": "夏朗",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1312/23/c10/29906500_1387775251796_120x90.jpg",
+          "prices": "25.56~38.96"
+        },
+        {
+          "id": "4560",
+          "kind": "MPV",
+          "modelTotal": 6,
+          "models": [
+            {
+              "id": "28071",
+              "isPromote": "0",
+              "modelPrice": "33.9",
+              "name": "2013款 2.5L 精英版",
+              "price": "33.9"
+            },
+            {
+              "id": "28072",
+              "isPromote": "0",
+              "modelPrice": "34.9",
+              "name": "2013款 2.1T 柴油精英版",
+              "price": "34.9"
+            },
+            {
+              "id": "28127",
+              "isPromote": "0",
+              "modelPrice": "34.9",
+              "name": "2014款 2.1T 柴油精英版",
+              "price": "34.9"
+            },
+            {
+              "id": "28070",
+              "isPromote": "0",
+              "modelPrice": "35.9",
+              "name": "2013款 2.5L 商务版",
+              "price": "35.9"
+            },
+            {
+              "id": "26731",
+              "isPromote": "0",
+              "modelPrice": "36.9",
+              "name": "2014款 3.0L 精英型",
+              "price": "36.9"
+            },
+            {
+              "id": "26732",
+              "isPromote": "0",
+              "modelPrice": "38.9",
+              "name": "2014款 3.0L 商务版",
+              "price": "38.9"
+            }
+          ],
+          "name": "威霆",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1405/09/c4/34032947_1399605284981_120x90.jpg",
+          "prices": "33.9~38.9"
+        },
+        {
+          "id": "106",
+          "kind": "MPV",
+          "modelTotal": 8,
+          "models": [
+            {
+              "id": "30179",
+              "isPromote": "1",
+              "modelPrice": "18.5",
+              "name": "2014款 2.4L 经典版",
+              "price": "20.9"
+            },
+            {
+              "id": "30180",
+              "isPromote": "1",
+              "modelPrice": "20.4",
+              "name": "2014款 2.4L 舒适版",
+              "price": "22.8"
+            },
+            {
+              "id": "30181",
+              "isPromote": "1",
+              "modelPrice": "22.4",
+              "name": "2014款 2.4L 行政版",
+              "price": "24.8"
+            },
+            {
+              "id": "31799",
+              "isPromote": "1",
+              "modelPrice": "24.99",
+              "name": "2014款 2.4L CT豪华商务舒适版",
+              "price": "28.99"
+            },
+            {
+              "id": "38723",
+              "isPromote": "1",
+              "modelPrice": "26.99",
+              "name": "2015款 2.4L CT豪华商务尊享版",
+              "price": "30.99"
+            },
+            {
+              "id": "31800",
+              "isPromote": "1",
+              "modelPrice": "28.99",
+              "name": "2014款 2.4L LT豪华商务行政版",
+              "price": "32.99"
+            },
+            {
+              "id": "31801",
+              "isPromote": "1",
+              "modelPrice": "35.49",
+              "name": "2014款 3.0L GT豪华商务豪雅版",
+              "price": "36.99"
+            },
+            {
+              "id": "31802",
+              "isPromote": "1",
+              "modelPrice": "38.49",
+              "name": "2014款 3.0L XT豪华商务旗舰版",
+              "price": "39.99"
+            }
+          ],
+          "name": "别克GL8",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1408/01/c6/36952579_36952579_1406881126572_120x90.jpg",
+          "prices": "18.5~38.49"
+        },
+        {
+          "id": "3755",
+          "kind": "MPV",
+          "modelTotal": 5,
+          "models": [
+            {
+              "id": "30940",
+              "isPromote": "0",
+              "modelPrice": "30.98",
+              "name": "2014款 先行者豪华版",
+              "price": "30.98"
+            },
+            {
+              "id": "31210",
+              "isPromote": "0",
+              "modelPrice": "30.98",
+              "name": "2014款 豪华版(北京版)",
+              "price": "30.98"
+            },
+            {
+              "id": "31211",
+              "isPromote": "0",
+              "modelPrice": "33.0",
+              "name": "2014款 精英版(北京版)",
+              "price": "33.0"
+            },
+            {
+              "id": "30941",
+              "isPromote": "0",
+              "modelPrice": "36.98",
+              "name": "2014款 先行者尊贵版",
+              "price": "36.98"
+            },
+            {
+              "id": "14583",
+              "isPromote": "0",
+              "modelPrice": "36.98",
+              "name": "2012款 先行者",
+              "price": "36.98"
+            }
+          ],
+          "name": "比亚迪e6",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1208/23/c6/13135410_13135410_1345706737985_120x90.jpg",
+          "prices": "30.98~36.98"
+        },
+        {
+          "id": "7730",
+          "kind": "MPV",
+          "modelTotal": 6,
+          "models": [
+            {
+              "id": "24663",
+              "isPromote": "0",
+              "modelPrice": "29.92",
+              "name": "2013款 1.8TSI 豪华版 欧IV",
+              "price": "29.92"
+            },
+            {
+              "id": "27142",
+              "isPromote": "0",
+              "modelPrice": "29.92",
+              "name": "2013款 1.8TSI 豪华版 欧V",
+              "price": "29.92"
+            },
+            {
+              "id": "27143",
+              "isPromote": "0",
+              "modelPrice": "32.9",
+              "name": "2013款 1.8TSI 豪华导航版 欧V",
+              "price": "32.9"
+            },
+            {
+              "id": "26721",
+              "isPromote": "0",
+              "modelPrice": "32.9",
+              "name": "2013款 1.8TSI 豪华导航版 欧IV",
+              "price": "32.9"
+            },
+            {
+              "id": "27144",
+              "isPromote": "0",
+              "modelPrice": "36.57",
+              "name": "2013款 2.0TSI 至尊版 欧V",
+              "price": "36.57"
+            },
+            {
+              "id": "26722",
+              "isPromote": "0",
+              "modelPrice": "36.57",
+              "name": "2013款 2.0TSI 至尊版 欧IV",
+              "price": "36.57"
+            }
+          ],
+          "name": "欧悦搏",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1308/28/c3/25003934_1377671838476_120x90.jpg",
+          "prices": "29.92~36.57"
+        },
+        {
+          "id": "2243",
+          "kind": "MPV",
+          "modelTotal": 2,
+          "models": [
+            {
+              "id": "22863",
+              "isPromote": "0",
+              "modelPrice": "29.7",
+              "name": "2013款 2.2T VQ-R 舒适版",
+              "price": "29.7"
+            },
+            {
+              "id": "20562",
+              "isPromote": "0",
+              "modelPrice": "32.5",
+              "name": "2013款 2.2T VQ-R 豪华版",
+              "price": "32.5"
+            }
+          ],
+          "name": "起亚VQ",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1211/10/c2/15653579_15653579_1352550080728_120x90.jpg",
+          "prices": "29.7~32.5"
+        },
+        {
+          "id": "210",
+          "kind": "MPV",
+          "modelTotal": 2,
+          "models": [
+            {
+              "id": "28000",
+              "isPromote": "0",
+              "modelPrice": "26.99",
+              "name": "2013款 1.4T 五座舒适型",
+              "price": "26.99"
+            },
+            {
+              "id": "28001",
+              "isPromote": "0",
+              "modelPrice": "30.99",
+              "name": "2013款 1.4T 七座豪华型",
+              "price": "30.99"
+            }
+          ],
+          "name": "赛飞利",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1310/31/c12/28186670_1383204100031_120x90.jpg",
+          "prices": "26.99~30.99"
+        },
+        {
+          "id": "12231",
+          "kind": "MPV",
+          "modelTotal": 2,
+          "models": [
+            {
+              "id": "39852",
+              "isPromote": "1",
+              "modelPrice": "26.49",
+              "name": "2015款 218i 领先型",
+              "price": "28.99"
+            },
+            {
+              "id": "39853",
+              "isPromote": "1",
+              "modelPrice": "30.3",
+              "name": "2015款 218i 运动设计套装",
+              "price": "32.99"
+            }
+          ],
+          "name": "宝马2系多功能旅行车",
+          "photo": "http://img.pcauto.com.cn/images/upload/upc/tx/auto5/1507/01/c30/9145429_9145429_1435740026671_120x90.JPG",
+          "prices": "26.49~30.3"
+        },
+        {
+          "id": "11002",
+          "kind": "MPV",
+          "modelTotal": 1,
+          "models": [
+            {
+              "id": "32519",
+              "isPromote": "0",
+              "modelPrice": "29.8",
+              "name": "2013款 标准型",
+              "price": "29.8"
+            }
+          ],
+          "name": "风尚·陆地方舟",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1405/15/c5/34255015_1400134983629_120x90.jpg",
+          "prices": "29.8~29.8"
+        },
+        {
+          "id": "943",
+          "kind": "MPV",
+          "modelTotal": 3,
+          "models": [
+            {
+              "id": "13839",
+              "isPromote": "0",
+              "modelPrice": "26.2",
+              "name": "2010款 舒适版 7座 织物座椅",
+              "price": "26.2"
+            },
+            {
+              "id": "13838",
+              "isPromote": "0",
+              "modelPrice": "28.8",
+              "name": "2010款 豪华版 7座 真皮座椅",
+              "price": "28.8"
+            },
+            {
+              "id": "13837",
+              "isPromote": "0",
+              "modelPrice": "29.8",
+              "name": "2010款 精英版 6座 真皮座椅",
+              "price": "29.8"
+            }
+          ],
+          "name": "格蓝迪",
+          "photo": "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1106/30/c3/8181172_8181172_1309406690187_120x90.jpg",
+          "prices": "26.2~29.8"
+        }
+      ],
+      "name": "serial_group_id",
+      "total": 262
+    }

@@ -1,0 +1,20 @@
+<ion-view view-title="Chats">
+    <ion-nav-buttons side="left">
+        <!--终于解决了这个让人头疼的问题-->
+        <a class="button button-clear icon ion-ios-arrow-back" href="#/tab/tool?isLogin=1">
+            返回
+        </a>
+    </ion-nav-buttons>
+  <ion-content>
+      <ion-list ng-repeat="group in groups" ng-init="group.isExpand=false">
+         <ion-item class="icon item-icon-right ion-chevron-right"  ng-click="group.isExpand=!group.isExpand" >
+        {{group.tname}}
+         </ion-item>
+         <ion-item ng-show="group.isExpand"class="item-avatar item-icon-right" ng-repeat="friend in  group.friends"  href="#/chats/{{friend.id}}">
+          <img ng-src="{{friend.avatar}}">
+          <h2>{{friend.nick}}</h2>
+           <p>{{friend.lastContent}}</p>
+         </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

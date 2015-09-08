@@ -1,0 +1,56 @@
+<ion-view view-title="选车结果" >
+  <ion-nav-buttons side="left">
+    <!--终于解决了这个让人头疼的问题-->
+    <button class="button button-clear icon ion-ios-arrow-back" onClick="history.back(-1)">
+      返回
+    </button>
+  </ion-nav-buttons>
+  <div top-striped my-item-title="myItemTitle" ></div>
+ <div ng-repeat="title in myItemTitle" ng-show="title.active" ng-init="title.titleIndex=$index;">
+   <ion-content class="no-header padding has-subheader" ng-show="!modelShow[$index]">
+      <div class="list list-borderless" ng-repeat="serial in mySearchValue">
+          <div class="item item-thumbnail-left">
+           <img src="{{serial.photo}}"/>
+              <h2>{{serial.name}}</h2>
+              <p class="red">￥{{serial.prices}}</p>
+              <p>{{serial.kind}}</p>
+          </div>
+
+        <div class="search-count">
+        <p ng-click="searchModels($index,title.titleIndex)">
+          有{{serial.modelTotal}}款符合要求<i></i>
+        </p>
+        </div>
+      </div>
+  </ion-content>
+  <div search-models current-index="currentIndex"
+       my-search-value="mySearchValue"
+       model-show="modelShow[title.titleIndex]"
+       search-models-list-flag="searchModelsList"
+          >
+  </div>
+  </div>
+</ion-view>
+
+<!--
+<div  style="z-index:9999" ng-show="modelShow">
+<div class="bar-relative">
+  <div class="bar-top-relative">
+     <span> {{mySearchValue[id].name}}</span>
+     <span class="red">￥{{mySearchValue[id].prices}}万</span>
+  </div>
+  </div>
+    <ion-content class="has-header padding has-subheader">
+    <div class="list padding">
+       <div class="item item-card search-model-item" ng-repeat="model in mySearchValue[id].models">
+          <p>{{model.name}}</p>
+         <div>
+           <span class="red">￥{{model.modelPrice}}万元起</span>
+           <span class="lineThrough">{{model.price}}万</span>
+           <span ng-show="model.isPromote">促销</span>
+         </div>
+       </div>
+    </div>
+    </ion-content>
+   <div class="deleteModel" ng-click="modelShow=!modelShow"><i></i></div>
+ </div>-->

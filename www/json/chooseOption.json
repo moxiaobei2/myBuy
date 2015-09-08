@@ -1,0 +1,442 @@
+{
+  "choose": [
+    {
+      "name": "自定义最低价",
+      "value": "ps",
+      "options": []
+    },
+    {
+      "name": "自定义最高价",
+      "value": "pe",
+      "options": []
+    },
+    {
+      "name": "级别",
+      "value": "jb",
+      "options": [
+        {
+          "name": "微型车",
+          "value": "76"
+        },
+        {
+          "name": "小型车",
+          "value": "110"
+        },
+        {
+          "name": "紧凑型车",
+          "value": "73"
+        },
+        {
+          "name": "中型车",
+          "value": "72"
+        },
+        {
+          "name": "中大型车",
+          "value": "71"
+        },
+        {
+          "name": "大型车",
+          "value": "70"
+        },
+        {
+          "partitions": [
+            {
+              "name": "全部SUV",
+              "value": "75"
+            },
+            {
+              "name": "小型SUV",
+              "value": "131"
+            },
+            {
+              "name": "紧凑型SUV",
+              "value": "132"
+            },
+            {
+              "name": "中型SUV",
+              "value": "133"
+            },
+            {
+              "name": "中大型SUV",
+              "value": "134"
+            },
+            {
+              "name": "全尺寸SUV",
+              "value": "135"
+            }
+          ],
+          "name": "SUV",
+          "value": "75"
+        },
+        {
+          "name": "MPV",
+          "value": "74"
+        },
+        {
+          "name": "跑车",
+          "value": "111"
+        },
+        {
+          "partitions": [
+            {
+              "name": "全部商用车",
+              "value": "112"
+            },
+            {
+              "name": "微面",
+              "value": "77"
+            },
+            {
+              "name": "微卡",
+              "value": "93"
+            },
+            {
+              "name": "轻客",
+              "value": "105"
+            },
+            {
+              "name": "皮卡",
+              "value": "94"
+            }
+          ],
+          "name": "商用车",
+          "value": "112"
+        }
+      ]
+    },
+    {
+      "name": "排量",
+      "value": "pl",
+      "options": [
+        {
+          "name": "1.0L及以下",
+          "value": "1"
+        },
+        {
+          "name": "1.1-1.6L",
+          "value": "2"
+        },
+        {
+          "name": "1.7-2.0L",
+          "value": "3"
+        },
+        {
+          "name": "2.1-2.5L",
+          "value": "4"
+        },
+        {
+          "name": "2.6-3.0L",
+          "value": "5"
+        },
+        {
+          "name": "3.1-4.0L",
+          "value": "6"
+        },
+        {
+          "name": "4.0L以上 ",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "name": "变速箱",
+      "value": "bsx",
+      "options": [
+        {
+          "name": "手动",
+          "value": "1"
+        },
+        {
+          "partitions": [
+            {
+              "name": "全部自动",
+              "value": "9999"
+            },
+            {
+              "name": "自动(AT)",
+              "value": "2"
+            },
+            {
+              "name": "半自动(AMT)",
+              "value": "6"
+            },
+            {
+              "name": "手自一体",
+              "value": "3"
+            },
+            {
+              "name": "无级变速(CVT)",
+              "value": "4"
+            },
+            {
+              "name": "双离合(DCT)",
+              "value": "5"
+            }
+          ],
+          "name": "自动",
+          "value": "9999"
+        }
+      ]
+    },
+    {
+      "name": "国别",
+      "value": "country",
+      "options": [
+        {
+          "name": "中国",
+          "value": "1"
+        },
+        {
+          "name": "德国 ",
+          "value": "2"
+        },
+        {
+          "name": "日本",
+          "value": "3"
+        },
+        {
+          "name": "美国",
+          "value": "4"
+        },
+        {
+          "name": "韩国 ",
+          "value": "5"
+        },
+        {
+          "name": "法国",
+          "value": "6"
+        },
+        {
+          "name": "英国",
+          "value": "7"
+        },
+        {
+          "name": "意大利",
+          "value": "8"
+        },
+        {
+          "name": "瑞典",
+          "value": "9"
+        },
+        {
+          "name": "荷兰",
+          "value": "10"
+        },
+        {
+          "name": "捷克",
+          "value": "11"
+        },
+        {
+          "name": "西班牙",
+          "value": "12"
+        },
+        {
+          "name": "其他",
+          "value": "13"
+        },
+        {
+          "name": "其他",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "name": "车身结构",
+      "value": "mkid",
+      "options": [
+        {
+          "name": "两厢",
+          "value": "4"
+        },
+        {
+          "name": "三厢",
+          "value": "1"
+        },
+        {
+          "name": "SUV",
+          "value": "6"
+        },
+        {
+          "name": "MPV",
+          "value": "8"
+        },
+        {
+          "name": "掀背",
+          "value": "113"
+        },
+        {
+          "name": "旅行车",
+          "value": "50"
+        },
+        {
+          "name": "客车",
+          "value": "61"
+        },
+        {
+          "name": "货车",
+          "value": "60"
+        },
+        {
+          "name": "硬顶跑车",
+          "value": "2"
+        },
+        {
+          "name": "皮卡",
+          "value": "7"
+        },
+        {
+          "name": "软顶敞篷车",
+          "value": "123"
+        },
+        {
+          "name": "硬顶敞篷车",
+          "value": "124"
+        }
+      ]
+    },
+    {
+      "name": "驱动方式",
+      "value": "qdfs",
+      "options": [
+        {
+          "name": "前驱",
+          "value": "1"
+        },
+        {
+          "name": "后驱",
+          "value": "2"
+        },
+        {
+          "name": "四驱",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "name": "燃料",
+      "value": "rl",
+      "options": [
+        {
+          "name": "汽油",
+          "value": "2"
+        },
+        {
+          "name": "柴油",
+          "value": "1"
+        },
+        {
+          "name": "电动",
+          "value": "3"
+        },
+        {
+          "name": "混合动力",
+          "value": "4"
+        },
+        {
+          "name": "纯电动",
+          "value": "3"
+        },
+        {
+          "name": "增程式电动",
+          "value": "6"
+        },
+        {
+          "name": "插电式混合动力",
+          "value": "5"
+        },
+        {
+          "name": "非插电式混合动力",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "name": "座位数",
+      "value": "zw",
+      "options": [
+        {
+          "name": "2座",
+          "value": "4"
+        },
+        {
+          "name": "4-5座",
+          "value": "5"
+        },
+        {
+          "name": "6座 ",
+          "value": "6"
+        },
+        {
+          "name": "7座",
+          "value": "7"
+        },
+        {
+          "name": "7座以上",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "name": "配置",
+      "value": "pz",
+      "options": [
+        {
+          "name": "胎压监测",
+          "value": "13"
+        },
+        {
+          "name": "电动天窗",
+          "value": "1"
+        },
+        {
+          "name": "定速巡航",
+          "value": "7"
+        },
+        {
+          "name": "氙气大灯",
+          "value": "4"
+        },
+        {
+          "name": "前中央扶手",
+          "value": "14"
+        },
+        {
+          "name": "车身稳定控制",
+          "value": "3"
+        },
+        {
+          "name": "座椅电动调节",
+          "value": "15"
+        },
+        {
+          "name": "自动空调",
+          "value": "11"
+        },
+        {
+          "name": "GPS导航",
+          "value": "5"
+        },
+        {
+          "name": "真皮座椅",
+          "value": "8"
+        },
+        {
+          "name": "倒车雷达",
+          "value": "9"
+        },
+        {
+          "name": "无钥匙启动",
+          "value": "2"
+        },
+        {
+          "name": "倒车视频影像",
+          "value": "10"
+        },
+        {
+          "name": "多功能方向盘",
+          "value": "12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-only tabs-color-active-assertive tabs-icon-bottom">
+
+  <!-- 车型库 Tab -->
+  <ion-tab icon-off="ion-buy-model-outline" icon-on="ion-buy-model" href="#/tab/serialBlank">
+    <ion-nav-view name="tab-serialBlank"></ion-nav-view>
+  </ion-tab>
+
+  <!-- 找车Tab -->
+  <ion-tab  icon-off="ion-buy-search-outline" icon-on="ion-buy-search" href="#/tab/chooseOption">
+    <ion-nav-view name="tab-chooseOption"></ion-nav-view>
+  </ion-tab>
+
+  <!-- 优惠列表 Tab -->
+  <ion-tab  icon-off="ion-buy-promote-outline" icon-on="ion-buy-promote" href="#/tab/promotionList">
+    <ion-nav-view name="tab-promotionList"></ion-nav-view>
+  </ion-tab>
+
+  <!-- 活动列表 Tab -->
+  <ion-tab  icon-off="ion-buy-activity-outline" icon-on="ion-buy-activity" href="#/tab/activity">
+    <ion-nav-view name="tab-activity"></ion-nav-view>
+  </ion-tab>
+
+  <!-- 工具Tab -->
+  <ion-tab  icon-off="ion-buy-tool-outline" icon-on="ion-buy-tool" href="#/tab/tool">
+    <ion-nav-view name="tab-tool"></ion-nav-view>
+  </ion-tab>
+<!--聊天
+  <ion-tab title="Chats" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="login" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/login">
+    <ion-nav-view name="tab-login"></ion-nav-view>
+  </ion-tab>-->
+
+
+
+</ion-tabs>

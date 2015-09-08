@@ -1,0 +1,33 @@
+<!--最基本框架 -->
+<ion-view view-title="找车">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear ion ion-search " ng-click="doSomething()">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button geolation class="button button-clear  ion ion-ios-location-outline" ng-click="doSomething()">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+       <div class="item range">
+           <i class="icon ion-volume-low"></i>
+           <input type="range"  min="0" max="100" ng-model="range" ng-change="itemRange(range)" ng-init="range=0">
+           <i class="icon ion-volume-low"></i>
+       </div>
+
+        <!--目录开始 -->
+        <ul class="list list-borderless" ng-repeat="choose in chooses" ng-if="$index>1">
+            <li class="item item-divider">{{choose.name}}</li>
+            <li class="item item-33" ng-repeat="option in choose.options" data="{{option.value}}" ng-init="option.show=true"
+                ng-click="option.show?itemClick($parent.$index,$index):''"  >
+                <i ng-class="{'item-none-show':!option.show}"></i>
+                {{option.name}}
+            </li>
+        </ul>
+    </ion-content>
+    <!-- 重置与结果count集-->
+   <div class="choose-option-bottom">
+       <div class="reSet" ng-click="itemReset()"><i class="icon ion-refresh"></i>重置</div>
+       <div class="dataCount" ng-click="itemCountClick()">有{{itemCount}}条符合要求</div>
+   </div>
+</ion-view>

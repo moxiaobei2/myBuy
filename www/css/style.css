@@ -1,0 +1,519 @@
+/* Empty. Add your own CSS if you like */
+/** tab页**/
+.ion-buy-model{
+    background:url("../img/btn_tabbar_1_hl@2x.png") no-repeat;
+    background-size:32px;
+}
+.ion-buy-model-outline{
+    background:url("../img/btn_tabbar_1@2x.png") no-repeat;
+    background-size:32px;
+}
+
+.ion-buy-search{
+    background:url("../img/btn_tabbar_2_hl@2x.png") no-repeat;
+    background-size:32px;
+}
+.ion-buy-search-outline{
+    background:url("../img/btn_tabbar_2@2x.png") no-repeat;
+    background-size:32px;
+}
+
+.ion-buy-promote{
+    background:url("../img/btn_tabbar_3_hl@2x.png") no-repeat;
+    background-size:32px;
+}
+.ion-buy-promote-outline{
+    background:url("../img/btn_tabbar_3@2x.png") no-repeat;
+    background-size:32px;
+}
+
+
+.ion-buy-activity{
+    background:url("../img/btn_tabbar_4_hl@2x.png") no-repeat;
+    background-size:32px;
+}
+.ion-buy-activity-outline{
+    background:url("../img/btn_tabbar_4@2x.png") no-repeat;
+    background-size:32px;
+}
+
+
+.ion-buy-tool{
+    background:url("../img/btn_tabbar_5_hl@2x.png") no-repeat;
+    background-size:32px;
+}
+.ion-buy-tool-outline{
+    background:url("../img/btn_tabbar_5@2x.png") no-repeat;
+    background-size:32px;
+}
+
+.tab-item .icon{/**重新设置高度，没有文字 **/
+  height:40px;
+    margin-left:16px;
+}
+.none{
+    display:none;
+}
+.block{
+    display:block;
+}
+.top{
+    position: fixed;
+    top:40px;
+}
+.item-33{
+    display:inline-block;
+    border:1px solid silver!important;
+    margin-right:2px;
+    padding-top:8px;
+    width:33%;
+    height: 40px;
+    text-align: center;
+    font-size:13px;
+}
+
+/**
+ *找车中单选按钮
+  对角线处理
+ **/
+.item-none-show{
+    content: "";
+    width:50%;
+    height:1px;
+    background-color: red;
+    position: absolute;
+    top: 11px;
+    -webkit-transform: rotate(-80deg);
+    transform: rotate(-80deg);
+}
+
+.choose-option-bottom{
+    position:fixed;
+    width:100%;
+    height:50px;
+    color:#fff;
+    bottom: 50px;
+    background-color:#f5f5f5;
+    text-align: center;
+    padding-top:5px;
+}
+
+.choose-option-bottom .reSet{
+    width:20%;
+    height: 90%;
+    display: inline-block;
+    padding-top:1%;
+    margin-left:5%;
+    background-color: #AAAAAA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}
+.choose-option-bottom .dataCount{
+    background-color: red;
+    border-radius: 10px;
+    height: 90%;
+    width:65%;
+    float:right;
+    margin-right:5%;
+    padding-top:1%;
+    -webkit-border-radius: 10px;
+}
+
+
+/**搜过页面开始**/
+
+.search-top{
+    position:absolute;
+}
+.red{
+    color:red!important;
+}
+.search-count{
+    margin-top: 1px;border-width: 1px 0px 3px 0px !important;border-style:solid;border-color: silver;
+    text-align:center;vertical-align: middle;
+}
+
+.search-count p{
+    width:120px;
+    position:relative;
+    margin:10px auto;
+    height: 20px;
+}
+.search-count i{
+   margin-left:3px;
+
+}
+.search-count p i::before{
+    content: "";
+    width: 9px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    top:11px;
+    left: 102px;
+    margin-left:2px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.search-count p i::after{
+    content: "";
+    width: 9px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    top: 11px;
+    right: 2px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+.tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated{
+    border-color:#E61A5F ;
+    color:#E61A5F ;
+}
+
+/**下位小三角，另边有个关闭按钮**/
+.bar-relative{
+    position:relative;
+    top:40px;
+
+}
+.bar-top-relative{
+    position:absolute;
+    top:40px;
+    width:100%;
+    height:60px;
+    margin:0px auto;
+    z-index: 9;
+    background-color:#f8f8f8;
+    padding:10px;
+    font-size: large;
+}
+
+/** 删除按钮的制作 **/
+.deleteModel{
+    border-radius: 25px;
+    background-color: #E61A5F;
+    width:40px;
+    height:40px;
+    right:4px;
+    position:absolute;
+    bottom:10px;
+    z-index:99999;
+}
+.deleteModelTab{
+    bottom:50px;
+}
+.deleteModel i::before{
+    width:30px;
+    height:1px;
+    position: absolute;
+    background-color: #D4D0C8;
+    content:"";
+    left:6px;
+    top:20px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.deleteModel i::after{
+    width:30px;
+    height:1px;
+    position: absolute;
+    background-color: #D4D0C8;
+    content:"";
+    right:4px;
+    top:20px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.search-model-item{
+    margin-top:10px;
+}
+
+.search-model-item:first-child{
+    margin-top:40px;
+}
+.search-model-item p:first-child{
+    font-size: 18px;
+}
+
+.red{
+    color:red;
+}
+
+.bar-top-relative span:first-child{
+    float:left;
+    width: 50%;
+    vertical-align: middle;
+}
+.search-model-item  p span:first-child{
+    width:33.33%;
+    text-align:left;
+    float:left;
+}
+.search-model-item p span:last-child,.span-last-child{
+    float:right;
+    right:4px;
+    background-color:#E61A5F ;
+    max-width:60px;
+    color: #ffffff;
+}
+.lineThrough{
+    text-decoration: line-through
+}
+
+/** 优惠列表**/
+.whole-line{
+    text-align:center;
+    border: 1px solid silver;
+    width:100%;
+    height:40px;
+    line-height: 38px;
+    display: flex;/** css3新属性表相同的长度**/
+}
+.half{
+    display: block;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height:40px;
+}
+.half:first-child{
+    border-right-color: silver;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.top-0{
+    top:0px;
+}
+
+ .marginBottom{
+    margin-bottom: 50px;
+}
+
+ /** before,after一定要写width,height display:inline-block display:absolute
+  background-size:30px;
+  vertical-align:middle;
+  margin-right:5px;
+  background-position 背景图的位置
+ **/
+.half i::before{
+    display: inline-block;
+    content: "";
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAjCAMAAAD/opkOAAAA3lBMVEUAAAA2sUs2sUtIf1A2sUtVVVU2sUtVVVU2sUtVVVVVVVU2sUtVVVVVVVU2sUtVVVU2sUtVVVU2sUtVVVVVVVVVVVVVVVVVVVU2sUtVVVVVVVU2sUs2sUtVVVU2sUtVVVVVVVU2sUs2sUtVVVU2sUs2sUtVVVVVVVVVVVU2sUtVVVU2sUtVVVU2sUtVVVVVVVU2sUs2sUs2sUtVVVVVVVVVVVVVVVVVVVVVVVU2sUtVVVVVVVU2sUs2sUs2sUs2sUtVVVVVVVU2sUs2sUs2sUtVVVVVVVU2sUs2sUtVVVUcjW3nAAAASHRSTlMAgFcGGxoVE9C64NXEa/fs59K8ta9kQDgt+vXe2tnJnh8YEQrv4suppZyXi4FnWkxGIwvmvnldVEY6JA/pw66qkIl6d0wwmjcnyEXSAAACGElEQVRIx53U53LiQBAE4LaFLHLOmGCCiTbJgAHncDf9/i90XnEGBCu5cP/QSlP1SVXamcUJeRdHznCcWioR0dobkR91mGTYPK6fi9wcPOMwt0zcJli2DuujqLw5K8e4EWQEVoBtOPM3Kn3kk/XNi1qtkQ4PGABgxphzlPNN6QKPUrF1XKSlwbUis2p9YXW/PG7JkwH4SuK/2OC4BlfZsdcVY9jFdylJY3Nj64+H+IcGX7MHO0HWtsW6XyoTYKvdfliGDNjbFOD9d21S2QFchSR05YKRLfNOrWkusImRlJIPcGo9xrrMGYAUh//tszyMsZeLkFz6XDCG9maFv/eqK8084NB+pfW4QQKI0YJKX6JL4EiXfHpsKJxlAnbORM6h0Y96fK/+WJsDeOh6Mq+GTDdVM3yyYMJLA28i77qpUhv1AnjqvhpQ7VQtGLPgpY2uRL9K2qkKMwJ4aONJoiMAuqkaMGHAQ0+S0lziOG12YE1VX7vri4rE8xqbJU1UmQbctS8kJUe/5oYNtVhl9pBjYQV3PS6pwdhLhAxmauY8yIAaiVfAVefj6ijai1lkgHZSJjKcruGql01JTg7OnjbmneC0k7HPkq+rq47Ks3MjcuRq70XXgIfuGofN3Nve91j4hIfuHzXz7lt/yDlOya4XcykWMjgpaZZnFmAt0mQwi9Ni3pEsFtTldY2TM0zHyFgqYuF3aRi/Uf8A4KlfFdVezQgAAAAASUVORK5CYII=) no-repeat;
+    background-size: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 13px;
+    height: 17px;
+}
+.m-phone i::before{
+    background-position: 0 -1px;
+}
+
+.m-promote i::before{
+    background-position: -18px 0;
+}
+
+/**活动列表页开始**/
+.item-150{
+    height:150px;
+    margin:10px;
+}
+.item-150 h2{
+    font-size:18px;
+}
+.img-left{
+    width:30%;height: 96%;float:left;position: relative;
+    text-align: center;vertical-align: middle;margin-right:10px;
+}
+.img-left img{
+    width:100%;
+    height: 90%;
+}
+.img-right p{
+    padding:7px;
+}
+/** 遮罩**/
+.shade{
+    height:25px;
+    width:100%;
+    background-color:#333;
+    position: absolute;
+    z-index:999;
+    bottom: 10px;
+    color:#ffffff;
+    opacity: 0.6;
+}
+
+.p-silver{
+    color: #d1d3d6!important;
+}
+.activity-count{
+    float:right;
+    right:4px;
+
+    max-width:60px;
+}
+
+.tool-item{
+    display: flex;text-align: center;
+    height: 150px;
+}
+.tool-item a{
+    display: block;
+    flex:1;
+    border: 1px solid silver;
+}
+
+.tool-item a div{
+    width:100px;height: 100px;border-radius: 50px;margin: 10px auto;
+}
+
+.tool-item-pink{
+    background-color: deeppink;
+}
+
+
+/** 聊天 **/
+
+.messages {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.messages li {
+    display:block;
+    clear:both;
+    max-width:50%;
+    margin:0 0 1rem 0;
+    padding:0;
+}
+
+.messages li:nth-child(even) {
+    float:right;
+}
+
+.messages li:nth-child(even) img {
+    float:right;
+}
+
+.messages p {
+    border-radius:.75rem;
+    background:#e6e5eb;
+    color:#383641;
+    padding:.6875rem;
+    margin:0;
+    font-size:.875rem;
+    min-height: 37px;
+}
+.messages li:nth-child(even) p {
+    background:#158ffe;
+    color:#fff;
+}
+
+
+.messages img {
+    display:block;
+    max-width:65%;
+    border-radius:.75rem;
+}
+
+
+.messages p img{
+    display: inline;
+
+}
+
+.circle-button{
+    border-radius: 25px;
+    border-width: 2px;
+    width: 35px;
+    height: 35px;
+}
+
+.fit-bottom{
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    background-color: #F7F7F7;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.fit-bottom-bar{
+    display: flex;
+    height: 45px;
+}
+.show-more{
+    height: 320px;
+    background-color: #ffffff;
+    dirplay:relative;
+    margin-top: 10px;
+}
+.show-more-face{
+    height: 280px;
+}
+
+.show-more a{
+    border: 0px;
+}
+
+.show-more .more-tool-item{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.show-more .more-tool-item a div{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+/**表情图**/
+.moreface{
+    height: 30px;
+}
+.moreface a{
+    height: 24px;
+}
+.moreface a img{
+    width:24px;
+    height: 24px;
+}
+
+/**对于chatDetail添加样式**/
+ .self{
+     background: #158ffe!important;
+     color: #fff!important;
+}
+
+ .other{
+    background: #e6e5eb!important;
+    color: #383641!important;
+}
+ .selffloat{
+     float:right!important;
+ }
+ .otherfloat{
+     float:left!important;
+ }
